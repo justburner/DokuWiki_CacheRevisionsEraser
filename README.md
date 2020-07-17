@@ -1,15 +1,18 @@
 # Cache and Revisions Eraser
 
+**Warning:** This project is *deprecated*, only recommended to be used up to DokuWiki 2018-04-22 "Greebo".
+
+
 **Current Version: 1.6.6**
 
 This admin plug-in allows you to erase the entire cache and/or old wiki revisions.
 Only use this plug-in if you want to clean up your wiki or if the cache gets corrupted.
-I won’t take any resposibility for data lost due to wrong plug-in usage.
-Once old revisions are erased; there’s no way to restore them.
+I wonâ€™t take any resposibility for data lost due to wrong plug-in usage.
+Once old revisions are erased; thereâ€™s no way to restore them.
 
 Check for additional information at https://www.dokuwiki.org/plugin:cacherevisionseraser
 
-## What’s new?
+## Whatâ€™s new?
 
 v1.6.6
 * Added Ukrainian Language (Thanks Olexiy Zagorskyi)
@@ -24,7 +27,7 @@ v1.6.4
 * Updated German Language (Thanks Arno Puschmann) 
 
 v1.6.3
-* Added Spanish Language (Thanks Bernabé García)
+* Added Spanish Language (Thanks BernabÃ© GarcÃ­a)
 * A few minor changes
 
 v1.6.2
@@ -82,20 +85,20 @@ v1.4.2
 v1.4.1
 * Updated German language (v1.4.*) (Thanks konus).
 * Added Italian language (v1.4.*) (Thanks EndelWar).
-* Fixed "version" text that i’ve forgot to do multi-language support (Thanks EndelWar).
-* Fixed internal variables for paths (In case they aren’t the default ones) (Thanks Christopher Smith).
+* Fixed "version" text that iâ€™ve forgot to do multi-language support (Thanks EndelWar).
+* Fixed internal variables for paths (In case they arenâ€™t the default ones) (Thanks Christopher Smith).
 * Added a "readme.txt" into the zip with same information as the wiki.
 
 v1.4
 * Added German language (v1.3.*) (Thanks konus).
 * Added Meta files & old lost page locks delection (suggestion from Kibi).
-* “Old lost page locks (*.lock)” will delete expired locks that aren’t deleted by DokuWiki due of creating a page and cancel it (generating a orphan .lock file).
+* â€œOld lost page locks (*.lock)â€ will delete expired locks that arenâ€™t deleted by DokuWiki due of creating a page and cancel it (generating a orphan .lock file).
 
 v1.3.1
 * Updated Russian language (v1.3.*) (Thanks Kibi).
 
 v1.3
-* Added configurations file “<dokuwiki directory>/lib/plugins/cacherevisionserase/configs.php” (request from Hoberion), you should edit it after the install:
+* Added configurations file â€œ<dokuwiki directory>/lib/plugins/cacherevisionserase/configs.phpâ€ (request from Hoberion), you should edit it after the install:
   * Position in admin menu (Default 67).
   * Enable/Disable cache erase command (Default ON).
   * Enable/Disable all old revisions erase command (Default OFF).
@@ -111,9 +114,9 @@ v1.3
 
 v1.2
 * Added Russian language (Thanks Kibi).
-* Fixed bug that didn’t delete cache file / revision page with “_dummy” text on it.
-* Fixed “data” path with accordance of security tips (Thanks Kibi).
-* Removed auth mechanism (Doku Wiki don’t allow non-admin users to access admins plug-ins anyway), no longer “Invalid auth mechanism” error is returned.
+* Fixed bug that didnâ€™t delete cache file / revision page with â€œ_dummyâ€ text on it.
+* Fixed â€œdataâ€ path with accordance of security tips (Thanks Kibi).
+* Removed auth mechanism (Doku Wiki donâ€™t allow non-admin users to access admins plug-ins anyway), no longer â€œInvalid auth mechanismâ€ error is returned.
 
 v1.1
 * Joined the two plug-ins into a single one.
@@ -132,7 +135,7 @@ v1.0
 * Brasil
   * Always updated
 * Spanish
-  * Bernabé García, 2009-06-27 v1.6.*
+  * BernabÃ© GarcÃ­a, 2009-06-27 v1.6.*
 * Ukrainian
   * Olexiy Zagorskyi, 2010-11-10 v.1.6.*
 * German
@@ -155,18 +158,18 @@ More translations are welcome.
 ## Download & Installation
 
 Method 1:
-* Go to “Admin” and select “Manage Plugins”
+* Go to â€œAdminâ€ and select â€œManage Pluginsâ€
 * In the URL Textbox, type one of the mirrors available in https://www.dokuwiki.org/plugin:cacherevisionseraser
-* Press “Download” and it will be automatically installed!
+* Press â€œDownloadâ€ and it will be automatically installed!
 * If you want to modify default configuration:
-  * Modify “<dokuwiki directory>/lib/plugins/cacherevisionserase/configs.php” configurations file with a text editor.
-* You can update in the future by pressing “Update” over the “cacherevisionserase” plug-in.
+  * Modify â€œ<dokuwiki directory>/lib/plugins/cacherevisionserase/configs.phpâ€ configurations file with a text editor.
+* You can update in the future by pressing â€œUpdateâ€ over the â€œcacherevisionseraseâ€ plug-in.
 
 Method 2:
 * Download the zip package
-* Unzip into ‘<dokuwiki directory>/lib/plugins/’ directory (you should end up with a ‘<dokuwiki directory>/lib/plugins/cacherevisionserase’ folder).
-* Modify “<dokuwiki directory>/lib/plugins/cacherevisionserase/configs.php” configurations file with a text editor.
-* That’s it! Plug-in is now installed and working!
+* Unzip into â€˜<dokuwiki directory>/lib/plugins/â€™ directory (you should end up with a â€˜<dokuwiki directory>/lib/plugins/cacherevisionseraseâ€™ folder).
+* Modify â€œ<dokuwiki directory>/lib/plugins/cacherevisionserase/configs.phpâ€ configurations file with a text editor.
+* Thatâ€™s it! Plug-in is now installed and working!
 
 Please visit the website for more mirrors.
 
@@ -176,14 +179,13 @@ Check the official website for the FAQ at https://www.dokuwiki.org/plugin:cacher
 
 ## Contact
 
-Plug-in coder:
-* JustBurn (Email: justburner [a@t] sapo [d.o.t] pt)
+Plug-in coder: JustBurn
 
 Peoples who helped to make this project better:
     Hoberion, Kibi, konus, EndelWar, Chris. Smith,
     Flavien Viollet, Jeff, Alexander Zubkov,
     Robert Riebisch, Gary, Alex (platinum4friends?),
-    Diego Pierotto, Micha Meyer, Bernabé García,
+    Diego Pierotto, Micha Meyer, BernabÃ© GarcÃ­a,
     Christophe Martin, Arno Puschmann, David,
     Olexiy Zagorskyi, schplurtz
 
